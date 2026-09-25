@@ -1,0 +1,7 @@
+{
+  "database_file": "readme_kardiologie_bilingual_audit.tsv",
+  "database_rows": 3634,
+  "database_sha256": "9f2d1f3184c91a0b54eb24ea8bf84e78af379703ab9494df6377dabb1eca798c",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "index_unit": "one_document_per_record_id"
+}
