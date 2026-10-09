@@ -155,7 +155,7 @@ def sidebar() -> None:
     )
 
     st.sidebar.markdown(
-        "### README-Wissensbasis"
+        "### Datenbank"
     )
 
     st.sidebar.write(
@@ -164,12 +164,12 @@ def sidebar() -> None:
     )
 
     st.sidebar.write(
-        f"Deutsche Begriffsformen: "
+        f"Deutsche Fachbegriffe: "
         f"**{database_info['unique_de']:,}**"
     )
 
     st.sidebar.write(
-        f"Englische Begriffsformen: "
+        f"Englische Fachbegriffe: "
         f"**{database_info['unique_en']:,}**"
     )
 
@@ -179,7 +179,7 @@ def sidebar() -> None:
     )
 
     st.sidebar.write(
-        f"README-Treffer pro Frage: "
+        f"Treffer pro Frage: "
         f"**{DEFAULT_TOP_K}**"
     )
 
@@ -188,7 +188,7 @@ def sidebar() -> None:
     )
 
     st.sidebar.info(
-        "CardioExplain ist ein Forschungsprototyp "
+        "CardioExplain ist ein Entwicklungsprototyp "
         "und ersetzt keine medizinische Beratung."
     )
 
@@ -204,7 +204,7 @@ def show_detected_terms(
         return
 
     with st.spinner(
-        "Suche Begriffe aus der README-Wissensbasis ..."
+        "Einen Moment, medizinische Fachbegriffe werden gesucht ..."
     ):
         detected = (
             detect_database_terms(
@@ -215,7 +215,7 @@ def show_detected_terms(
     if not detected:
         st.info(
             "Es wurden keine wörtlich übereinstimmenden "
-            "Begriffe aus der README-Wissensbasis gefunden."
+            "medizinischen Fachbegriffe aus der Datenbank gefunden."
         )
         return
 
@@ -270,7 +270,7 @@ def show_detected_terms(
 
     st.success(
         f"{len(result_df)} unterschiedliche "
-        "README-Begriffe erkannt."
+        "medizinische Fachbegriffe erkannt."
     )
 
     st.dataframe(
@@ -281,8 +281,8 @@ def show_detected_terms(
 
     st.caption(
         "Die Erkennung basiert auf wörtlichen Übereinstimmungen "
-        "mit den deutschen und englischen Begriffsformen "
-        "der verwendeten README-Wissensbasis."
+        "mit den Fachbegriffen aus "
+        "der verwendeten Datenbank."
     )
 
 
@@ -353,7 +353,7 @@ def main() -> None:
         )
 
         if st.button(
-            "Wörtlich erkannte README-Begriffe anzeigen"
+            "Medizinische Fachbegriffe anzeigen"
         ):
             show_detected_terms(
                 st.session_state.patient_text
@@ -406,7 +406,7 @@ def main() -> None:
             "assistant"
         ):
             with st.spinner(
-                "Suche in README und generiere Antwort ..."
+                "CardioExplain bereitet deine Antwort vor …"
             ):
                 try:
                     result = (
@@ -424,7 +424,7 @@ def main() -> None:
                     )
 
                     with st.expander(
-                        "Genutzte README-Treffer"
+                        "Genutzte Treffer aus der Datenbank"
                     ):
                         for source in (
                             result.sources
@@ -481,7 +481,7 @@ def main() -> None:
                             )
 
                     with st.expander(
-                        "Retrieval-Details"
+                        "Details"
                     ):
                         st.markdown(
                             "**In der Frage erkannte README-Begriffe:**"
