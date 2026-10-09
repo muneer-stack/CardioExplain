@@ -18,9 +18,6 @@ from config import (
 
 
 def normalize_text(value: object) -> str:
-    """
-    Vereinheitlicht Textfelder, ohne ihren Inhalt fachlich zu verändern.
-    """
     if pd.isna(value):
         return ""
 
@@ -32,19 +29,10 @@ def normalize_text(value: object) -> str:
 
 
 def normalize_term(value: object) -> str:
-    """
-    Normalisierte Schreibweise für spätere exakte Vergleiche.
-    Die sichtbare Originalschreibweise bleibt separat erhalten.
-    """
     return normalize_text(value).lower()
 
 
 def calculate_file_hash(path: Path) -> str:
-    """
-    Berechnet einen SHA-256-Hash der Datenbank.
-    Dadurch kann später nachvollzogen werden,
-    mit welcher konkreten Datei der Index erstellt wurde.
-    """
     sha256 = hashlib.sha256()
 
     with open(path, "rb") as file:
@@ -55,10 +43,6 @@ def calculate_file_hash(path: Path) -> str:
 
 
 def load_and_prepare_database(path: Path) -> pd.DataFrame:
-    """
-    Lädt die finale bilinguale README-Datenbank und
-    prüft die für das RAG-System benötigten Spalten.
-    """
     if not path.exists():
         raise FileNotFoundError(
             f"Die Datenbank wurde nicht gefunden:\n{path}"
@@ -137,13 +121,6 @@ def load_and_prepare_database(path: Path) -> pd.DataFrame:
 def build_documents(
     df: pd.DataFrame,
 ) -> tuple[list[Document], pd.DataFrame]:
-    """
-    Erstellt genau ein FAISS-Dokument pro record_id.
-
-    Es findet bewusst KEINE Gruppierung nach Fachbegriff statt.
-    Dadurch bleiben unterschiedliche README-Einträge,
-    Definitionen und Bedeutungen getrennt erhalten.
-    """
     documents: list[Document] = []
     catalog_rows: list[dict] = []
 
@@ -219,10 +196,6 @@ def save_manifest(
     database_rows: int,
     database_hash: str,
 ) -> None:
-    """
-    Speichert Informationen über den Index.
-    Das hilft später bei Reproduzierbarkeit und Evaluation.
-    """
     manifest = {
         "database_file": DATA_PATH.name,
         "database_rows": database_rows,
@@ -252,7 +225,7 @@ def save_manifest(
 def main() -> None:
 
     print("=" * 70)
-    print("CardioExplain – Aufbau des README-FAISS-Index")
+    print("CardioExplain - Aufbau des README-FAISS-Index")
     print("=" * 70)
 
     print()
@@ -267,12 +240,12 @@ def main() -> None:
     print(f"Geladene Datensätze: {len(df):,}")
 
     print(
-        "Unterschiedliche englische Fachbegriffe: "
+        "Englische Fachbegriffe: "
         f"{df['term_norm_en'].nunique():,}"
     )
 
     print(
-        "Unterschiedliche deutsche Fachbegriffe: "
+        "Deutsche Fachbegriffe: "
         f"{df['term_norm_de'].nunique():,}"
     )
 
