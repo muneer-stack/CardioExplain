@@ -1,0 +1,100 @@
+Von CardioExplain gefundene Begriffe 244 Arztbrief					Begriffe im Arztbrief	Vorkommen im Arztbrief
+Im Arztbrief wurden folgende Fachbegriffe vom System erkannt:			record_ids		koronaren Herzerkrankung	1
+B	b -	b -	CARDIO_003106		Echokardiographisch	2
+Aktuell	AKTUELL	CURRENT	CARDIO_002712		linksventrikuläre Funktion	1
+Herzerkrankung	Herzerkrankung	heart disease	CARDIO_000948 | CARDIO_002502		Aortenklappenstenose	1
+Echokardiographisch	echokardiographisch	echocardiographic	CARDIO_001072		Insuffizienz	4
+Aortenklappenstenose	AORTENKLAPPENSTENOSE	AORTIC VALVE STENOSIS	CARDIO_002301		EKG	1
+EKG	EKG	EKG	CARDIO_000057 | CARDIO_000772 | CARDIO_000928 | CARDIO_000940 | CARDIO_001467 | CARDIO_001637 | CARDIO_002890		Hf	1
+Gefäßerkrankung	Gefäßerkrankung	Vascular disease	CARDIO_001028 | CARDIO_001746 | CARDIO_001893		Koronare 3-Gefäßerkrankung	1
+v	V -	V -	CARDIO_002372		Z.n.	1
+LIMA	LIMA	LIMA	CARDIO_000598 | CARDIO_001404		Koronarrevaskularisation	1
+LAD	LAD	LAD	CARDIO_000145 | CARDIO_000540 | CARDIO_001134		LIMA	1
+NSTEMI	NSTEMI	NSTEMI	CARDIO_000725		in-situ-graft	1
+LV	LV	LV	CARDIO_000070 | CARDIO_000888 | CARDIO_003504		LAD	1
+TTE	TTE	TTE	CARDIO_000199		aortokoronaren Venenbypasses	1
+Hypertonie	Hypertonie	hypertension	CARDIO_000116 | CARDIO_000324		M2	1
+Hypercholesterinämie	Hypercholesterinämie	hypercholesterolemia	CARDIO_000621 | CARDIO_002510		RIVP	1
+Belastung	Belastung	stress	CARDIO_000335 | CARDIO_001346 | CARDIO_001603 | CARDIO_002419 | CARDIO_003544		Z. n. NSTEMI	1
+Synkopen	Synkopen	syncopal episodes	CARDIO_001394		LV-Pumpfunktion	1
+Ramipril	Ramipril	Ramipril	CARDIO_003001		TTE	2
+Simvastatin	Simvastatin	simvastatin	CARDIO_000047 | CARDIO_000300 | CARDIO_000996 | CARDIO_001053		Aortenklappenvitium	2
+p	P -	P -	CARDIO_002170		Stenose	2
+NG	NG	NG	CARDIO_000138 | CARDIO_001265 | CARDIO_002041		Arterielle Hypertonie	1
+Sinusrhythmus	Sinusrhythmus	sinus rhythm	CARDIO_000345		Hypercholesterinämie	1
+QRS	QRS	QRS	CARDIO_000462 | CARDIO_001622		koronarer Herzerkrankung	1
+QTc	qtc	qtc	CARDIO_000174 | CARDIO_000431 | CARDIO_001548 | CARDIO_001649 | CARDIO_003355		Bypassoperation	2
+V4	V4	V4	CARDIO_000706		Belastungsdyspnoe	1
+Q	Q	Q	CARDIO_002907 | CARDIO_002916		NYHA I	1
+II	II	II	CARDIO_000536 | CARDIO_003386		Sternum	1
+V6	V6	V6	CARDIO_000708		pectanginösen	1
+Blutdruck	Blutdruck	Blood pressure	CARDIO_002052 | CARDIO_002993		Palpitationen	1
+systolisch	systolisch	systolic	CARDIO_000204 | CARDIO_000233 | CARDIO_000346 | CARDIO_000835 | CARDIO_001003 | CARDIO_001319 | CARDIO_001860 | CARDIO_001861 | CARDIO_002365 | CARDIO_003447 | CARDIO_003505		Synkopen	1
+diastolisch	diastolisch	diastolic	CARDIO_000131 | CARDIO_000413 | CARDIO_001077 | CARDIO_001358 | CARDIO_001532 | CARDIO_001625 | CARDIO_001862		Nykturie	1
+Mund	Mund	Mouth	CARDIO_002262 | CARDIO_002703		Miktion	1
+schnell	schnell	swift	CARDIO_001753 | CARDIO_003122		Periphere Ödeme	2
+Angina pectoris	Angina pectoris	angina	CARDIO_000752 | CARDIO_001045 | CARDIO_001902 | CARDIO_002010		LDL	6
+Angina	Angina pectoris	angina	CARDIO_000752 | CARDIO_002108 | CARDIO_003274		ASS	2
+ST	ST	ST	CARDIO_002894 | CARDIO_002963		Metoprololsuccinat	2
+aVF	AVF	AVF	CARDIO_000537 | CARDIO_001621 | CARDIO_002886		Delix	2
+Herzfrequenz	Herzfrequenz	Heart Rate	CARDIO_000067 | CARDIO_000358 | CARDIO_001913 | CARDIO_001940 | CARDIO_002049 | CARDIO_002161 | CARDIO_002464		Ramipril	2
+Herzrhythmusstörungen	HERZRHYTHMUSSTÖRUNGEN	ARRHYTHMIAS	CARDIO_002413		Ezetimib/Simvastatin	1
+Echokardiographie	Echokardiographie	echo	CARDIO_000169 | CARDIO_000931 | CARDIO_001765		AZ	1
+linker Ventrikel	linker Ventrikel	left ventricle	CARDIO_000322		EZ	1
+Ventrikel	Ventrikel	ventricle	CARDIO_001652		HF	2
+RA	RA	RA	CARDIO_003249		RR	1
+RV	RV	RV	CARDIO_001418		Zyanose	1
+Perikarderguss	Perikarderguss	pericardial effusion	CARDIO_000550 | CARDIO_001697 | CARDIO_001748 | CARDIO_001899		Ikterus	1
+Aortenklappe	Aortenklappe	aortic valve	CARDIO_000559 | CARDIO_000564 | CARDIO_001113 | CARDIO_001577 | CARDIO_001578 | CARDIO_002150 | CARDIO_002580 | CARDIO_003054		HT	1
+Aortenklappeninsuffizienz	Aortenklappeninsuffizienz	aortic regurgitation	CARDIO_001465 | CARDIO_001583		vesikuläres AG	1
+Mitralklappe	Mitralklappe	mitral	CARDIO_000365 | CARDIO_000701 | CARDIO_001058 | CARDIO_001451 | CARDIO_001545 | CARDIO_001675 | CARDIO_002151 | CARDIO_002257 | CARDIO_002867		NG	1
+PA	PA	PA	CARDIO_000229 | CARDIO_001353		Braykarder Sinusrhythmus	1
+wird	wird	will	CARDIO_003401		PQ	1
+elektrokardiographisch	elektrokardiographisch	electrocardiographic	CARDIO_001684		QRS	1
+Myokardischämie	Myokardischämie	myocardial ischemia	CARDIO_001411		QTc	1
+Kardiologen	Kardiologen	cardiologists	CARDIO_000626 | CARDIO_000987		R-Progression	1
+					R/S Umschlag in V3/V4	1
+Antwortgenerierung					S-Persistenz	1
+Textstelle im Arztbrief: 	Echokardiographisch sahen wir eine noch gute linksventrikuläre Pumpfunktion ohne regionale Kontraktionsstörungen. Die VCI war nicht gestaut. Es zeigte sich ein kombiniertes Aortenklappenvitum mit führender leicht- bis mittelgradiger Stenose und leichtgradiger Insuffizienz				Diskretes Q	1
+Zielbegriff:	VCI		Begriff exisitiert nicht in der Datenbank		II	1
+Prompt:	Was bedeutet in meinem Befund: Die VCI war nicht gestaut?				V4-V6	1
+Antwort	VCI ist in diesem Kontext nicht eindeutig identifizierbar. Es gibt jedoch einen Treffer, der VVIR beinhaltet, was eine Art Herzschrittmacher ist. Ein anderer Treffer beinhaltet VVI, ebenfalls eine Art Herzschrittmacher. Es ist jedoch nicht klar, ob VCI eine Abkürzung für VVIR oder VVI ist. Im vorliegenden Arztbrief wird VCI nicht explizit als VVIR oder VVI bezeichnet. Es wird jedoch erwähnt, dass die VCI nicht gestaut war. Dies könnte bedeuten, dass die Funktion der VCI nicht beeinträchtigt war. Da die Bedeutung von VCI nicht eindeutig ist, ist es schwierig, eine genaue Bedeutung im vorliegenden Arztbrief zu bestimmen. Es könnte jedoch sein, dass VCI eine Abkürzung für eine Herzschrittmacher-Funktion ist, die nicht gestaut war.				systolisch	1
+Genutzte Readme Treffer	1. VVIR  record_id: CARDIO_001794 | Englisch: VVIR | mention_count: 4  Fachbegriff Deutsch: VVIR  Fachbegriff Englisch: VVIR  Allgemeine medizinische Definition aus README: VVIR  Laienverständliche Erklärung Deutsch: Ein VVIR ist eine Art Herzschrittmacher.  Laienverständliche Erklärung Englisch: A VVIR is a kind of pacemaker. 2. AORTENKLAPPENSTENOSE  record_id: CARDIO_002301 | Englisch: AORTIC VALVE STENOSIS | mention_count: 3  Fachbegriff Deutsch: AORTENKLAPPENSTENOSE  Fachbegriff Englisch: AORTIC VALVE STENOSIS  Allgemeine medizinische Definition aus README: The dilatation of the aortic wall behind each of the cusps of the aortic valve. VALVE STENOSIS  Laienverständliche Erklärung Deutsch: Bei einer Aortenklappenstenose öffnet und schließt sich die Herzklappe, die vom Herzen zum restlichen Körper führt, nicht richtig, was möglicherweise zu einem Blutrückfluss führen kann.  Laienverständliche Erklärung Englisch: Aortic valve stenosis is when the heart valve leading from the heart to the rest of the body doesn't open and close properly, possibly resulting in blood leakage. 3. VVI  record_id: CARDIO_000424 | Englisch: VVI | mention_count: 4  Fachbegriff Deutsch: VVI  Fachbegriff Englisch: VVI  Allgemeine medizinische Definition aus README: VVI  Laienverständliche Erklärung Deutsch: Ein VVI ist eine Art Herzschrittmacher, der bei Patienten mit nur einer Herzkammer zur Regulierung des Herzrhythmus beiträgt.  Laienverständliche Erklärung Englisch: A VVI is a type of pacemaker that helps control heart rhythm in patients with one chamber. 4. Intermediate Coronary  record_id: CARDIO_001905 | Englisch: Intermediate Coronary | mention_count: 1  Fachbegriff Deutsch: Intermediate Coronary  Fachbegriff Englisch: Intermediate Coronary  Allgemeine medizinische Definition aus README: A patient with 1-2 IMDC risk factors. Coronary  Laienverständliche Erklärung Deutsch: Instabile Angina pectoris, die sich aufgrund einer verminderten Durchblutung des Herzens verschlimmert, auch bekannt als „Intermediate Coronary“.  Laienverständliche Erklärung Englisch: Unstable angina that worsens due to reduced blood flow to the heart, also known as Intermediate Coronary. 5. KLAPPENERKRANKUNG  record_id: CARDIO_001254 | Englisch: VALVULAR DISEASE | mention_count: 1  Fachbegriff Deutsch: KLAPPENERKRANKUNG  Fachbegriff Englisch: VALVULAR DISEASE  Allgemeine medizinische Definition aus README: VALVULAR DISEASE  Laienverständliche Erklärung Deutsch: Eine Herzklappenerkrankung ist eine Herzerkrankung, die die Herzklappen betrifft.  Laienverständliche Erklärung Englisch: Valvular disease is a heart condition affecting the valves.				diastolisch	1
+Retrieval Details	In der Frage erkannte README-Begriffe:  Kein exakter README-Begriff erkannt.  Verwendeter lokaler Arztbriefkontext:  Echokardiographisch sahen wir eine noch gute linksventrikuläre Pumpfunktion ohne regionale Kontraktionsstörungen. Die VCI war nicht gestaut. Es zeigte sich ein kombiniertes Aortenklappenvitum mit führender leicht- bis mittelgradiger Stenose und leichtgradiger Insuffizienz Retrieval-Anfrage:  Gesuchte Begriffe aus der Nutzerfrage: VCI  Nutzerfrage: Was bedeutet in meinem Befund: Die VCI war nicht gestaut?  Zielnaher Arztbriefkontext: Echokardiographisch sahen wir eine noch gute linksventrikuläre Pumpfunktion ohne regionale Kontraktionsstörungen. Die VCI war nicht gestaut. Es zeigte sich ein kombiniertes Aortenklappenvitum mit führender leicht- bis mittelgradiger Stenose und leichtgradiger Insuffizienz				Dyspnoe	2
+Disambiguierung					sistierte	1
+Textstelle:	 Z.n. 3-facher Koronarrevaskularisation unter Verwendung der LIMA als in-situ-graft auf LAD, Anlage eines sequentiellen aortokoronaren Venenbypasses auf M2 und RIVP				Angina pectoris	1
+Zielbegriff: 	LIMA				periphere Zyanose	1
+Prompt:	hat LIMA mehr als nur eine Bedeutung?				aszendierende ST-Streckensenkungen	1
+Antwort	LIMA ist eine wichtige Arterie im Brustkorb, die Ärzte verwenden, um eine verstopfte Herzarterie zu überbrücken. Im vorliegenden Arztbrief bezieht sich LIMA auf die Verwendung der LIMA als in-situ-graft auf LAD bei einer 3-fachen Koronarrevaskularisation. Die Informationen reichen aus, um die Bedeutung von LIMA im Arztbrief zu bestimmen.				Sinusrhythmus	1
+Genutzte README-Treffer	1. LIMA  record_id: CARDIO_000598 | Englisch: LIMA | mention_count: 7  Fachbegriff Deutsch: LIMA  Fachbegriff Englisch: LIMA  Allgemeine medizinische Definition aus README: LIMA  Laienverständliche Erklärung Deutsch: Eine wichtige Arterie im Brustkorb, die Ärzte verwenden, um eine verstopfte Herzarterie zu überbrücken.  Laienverständliche Erklärung Englisch: A major artery in the chest that doctors use to bypass a clogged heart artery. 2. LIMA  record_id: CARDIO_001404 | Englisch: LIMA | mention_count: 16  Fachbegriff Deutsch: LIMA  Fachbegriff Englisch: LIMA  Allgemeine medizinische Definition aus README: LIMA  Laienverständliche Erklärung Deutsch: Eine Brustarterie, die zur Umgehung von Verstopfungen im Herzen verwendet wird.  Laienverständliche Erklärung Englisch: A chest artery used for bypassing blockages in the heart. 3. Mikro- und Makrovaskuläre Erkrankung  record_id: CARDIO_003200 | Englisch: micro and macrovascular disease | mention_count: 1  Fachbegriff Deutsch: Mikro- und Makrovaskuläre Erkrankung  Fachbegriff Englisch: micro and macrovascular disease  Allgemeine medizinische Definition aus README: A solution or suspension present in a small volume or mass, intended for administration to the rectum. and Pathological processes involving any of the BLOOD VESSELS in the cardiac or peripheral circulation. They include diseases of ARTERIES; VEINS; and rest of the vasculature system in the body.  Laienverständliche Erklärung Deutsch: Wenn mikro- und makrovaskuläre Erkrankungen auftreten, sind sowohl die kleinen als auch die großen Blutgefäße im Körper betroffen.  Laienverständliche Erklärung Englisch: When micro and macrovascular disease occurs, it affects both small and large blood vessels in the body. 4. MRCA  record_id: CARDIO_000787 | Englisch: MRCA | mention_count: 1  Fachbegriff Deutsch: MRCA  Fachbegriff Englisch: MRCA  Allgemeine medizinische Definition aus README: The section of the right coronary artery between the right ventricular artery and the acute marginal artery.  Laienverständliche Erklärung Deutsch: Eine Bakterienart, die Infektionen verursacht und mit herkömmlichen Antibiotika nur schwer zu behandeln ist.  Laienverständliche Erklärung Englisch: Type of bacteria that causes infections and is difficult to treat with conventional antibiotics. 5. ARTERIOPORTAL  record_id: CARDIO_001879 | Englisch: ARTERIOPORTAL | mention_count: 1  Fachbegriff Deutsch: ARTERIOPORTAL  Fachbegriff Englisch: ARTERIOPORTAL  Allgemeine medizinische Definition aus README: ARTERIOPORTAL  Laienverständliche Erklärung Deutsch: Das Blut zirkuliert zwischen verschiedenen Teilen der Leber, was zu bestimmten Gesundheitsproblemen wie beispielsweise hohem Blutdruck in der Leber führen kann.  Laienverständliche Erklärung Englisch: Blood moves between different parts of the liver, which can lead to certain health issues like high blood pressure in the liver.				linker Ventrikel	1
+Retrieval-Details	In der Frage erkannte README-Begriffe:  LIMA  Verwendeter lokaler Arztbriefkontext:  Z.n. 3-facher Koronarrevaskularisation unter Verwendung der LIMA als in-situ-graft auf LAD, Anlage eines sequentiellen aortokoronaren Venenbypasses auf M2 und RIVP Retrieval-Anfrage:  Gesuchte Begriffe aus der Nutzerfrage: LIMA  Automatisch zugeordnete README-Begriffsformen: LIMA  Nutzerfrage: Was bedeutet LIMA und hat sie mehr als nur eine Bedeutung?  Zielnaher Arztbriefkontext: Z.n. 3-facher Koronarrevaskularisation unter Verwendung der LIMA als in-situ-graft auf LAD, Anlage eines sequentiellen aortokoronaren Venenbypasses auf M2 und RIVP				systolischer Pumpfunktion	1
+					Hypokinesie inferior basal sowie inferoseptal	1
+					longitudinale Funktion	1
+					diastolische LV-Dysfunktion	1
+					LA	1
+					dilatiert	1
+					RA	1
+					RV	1
+					RV-Funktion	1
+					Perikarderguss	1
+					Vena cava inferior	1
+					Aortenklappe	1
+					trikuspid	1
+					Separation	2
+					Dopplersonographisch	1
+					Stenosewirkung	1
+					Aortenklappeninsuffizienz	1
+					Mitralklappe	1
+					sonographisch	1
+					dopplersonographisch	1
+					systolische PA-Druck	1
+					sPA Druck	1
+					koronarer 3-Gefäßerkrankung	1
+					elektrokardiographisch	1
+					Myokardischämie	1
+					linksventrikuläre Pumpfunktion	1
+					Kontraktionsstörungen	1
+					VCI	1
+					sPA-Druck	1
+					Rosuvastatin	2
+					Ezetimib	1

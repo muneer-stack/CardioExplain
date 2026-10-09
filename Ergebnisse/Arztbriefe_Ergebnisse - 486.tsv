@@ -1,0 +1,71 @@
+Von CardioExplain gefundene Begriffe 486 Arztbrief								Goldstandard	Mention
+Im Arztbrief wurden folgende Fachbegriffe vom System erkannt:			record_ids					muskuloskeletal	2
+V	V	V	CARDIO_000748					Thoraxschmerz	1
+Atemwege	Atemwege	airway	CARDIO_003402					Myokardinfarkt	1
+LAE	LAE	LAE	CARDIO_003374					LAE	1
+Dissektion	Dissektion	dissection	CARDIO_000886 | CARDIO_001087 | CARDIO_002935					TVT	4
+Belastungstest	Belastungstest	stress test	CARDIO_000910 | CARDIO_000991 | CARDIO_001419 | CARDIO_001651 | CARDIO_002790 | CARDIO_003326 | CARDIO_003419					Dissektion	2
+TTE	TTE	TTE	CARDIO_000199					SARS-CoV Ag	1
+Hypercholesterinämie	Hypercholesterinämie	hypercholesterolemia	CARDIO_000621 | CARDIO_002510					PCR	1
+Herzerkrankung	Herzerkrankung	heart disease	CARDIO_000948 | CARDIO_002502					biventrikuläre Pumpfunktion	1
+Angina	Angina pectoris	angina	CARDIO_000752 | CARDIO_002108 | CARDIO_003274					TTE	1
+100	100	100	CARDIO_002704					Tubenventilationsstörung	1
+Vitalparameter	Vitalparameter	Vitals	CARDIO_000001 | CARDIO_000002 | CARDIO_000038 | CARDIO_000441 | CARDIO_001011 | CARDIO_001168					Mukotympanon	1
+EKG	EKG	EKG	CARDIO_000057 | CARDIO_000772 | CARDIO_000928 | CARDIO_000940 | CARDIO_001467 | CARDIO_001637 | CARDIO_002890					Paukendrainage	1
+Rhythmus	Rhythmus	rhythm	CARDIO_000042 | CARDIO_001853 | CARDIO_002325					Tubenballondilatation	1
+Sinusrhythmus	Sinusrhythmus	sinus rhythm	CARDIO_000345					Z.n.	1
+Herzfrequenz	Herzfrequenz	Heart Rate	CARDIO_000067 | CARDIO_000358 | CARDIO_001913 | CARDIO_001940 | CARDIO_002049 | CARDIO_002161 | CARDIO_002464					Desmoidtumor	1
+QRS	QRS	QRS	CARDIO_000462 | CARDIO_001622					Resektion	1
+QRS-Komplex	QRS-Komplex	QRS complex	CARDIO_000611					Hypercholesterinämie	1
+Komplex	KOMPLEX	COMPLEX	CARDIO_001347 | CARDIO_001747					Nikotinanamnese	1
+ST	ST	ST	CARDIO_002894 | CARDIO_002963					Packyears	1
+T-Welle	T-Welle	T wave	CARDIO_001468 | CARDIO_001486 | CARDIO_001974 | CARDIO_002961 | CARDIO_003113 | CARDIO_003369					thorakalen Schmerzen	1
+T	T	T	CARDIO_002402					Angina pectoris	1
+Abdomen	Bauch	Abdomen	CARDIO_002775					Belastungsdyspnoe	1
+Herz	Herz	heart	CARDIO_002696 | CARDIO_002774					Synkope	1
+Troponin	TROPONIN	TROPONIN	CARDIO_000120 | CARDIO_000167 | CARDIO_000704 | CARDIO_001868 | CARDIO_003610					Palpitationen	1
+kardiorespiratorisch	kardiorespiratorisch	cardiorespiratory	CARDIO_003424					Vitalparameter	1
+AF	AF	AF	CARDIO_000420 | CARDIO_000600 | CARDIO_001590 | CARDIO_002861					Sinusrhythmus	1
+Elektrokardiographisch	elektrokardiographisch	electrocardiographic	CARDIO_001684					QRS-Komplex	1
+NT	NT	NT	CARDIO_000668 | CARDIO_002065 | CARDIO_002617					ST-Strecke	1
+BNP	BNP	BNP	CARDIO_000520 | CARDIO_001067 | CARDIO_002508					T-Welle	1
+aktuell	AKTUELL	CURRENT	CARDIO_002712					Pulmo	1
+Echokardiographie	Echokardiographie	echo	CARDIO_000169 | CARDIO_000931 | CARDIO_001765					auskultatorisch	1
+								vesikuläres Atmen	1
+Antwortgenerierung								Abdomen	1
+Textstelle im Arztbrief: 	Elektrokardiographisch zeigten sich keine infarkttypischen Ischämiezeichen. Das hs-cTroponin betrug bei Aufnahme 5 pg/ml, im Verlauf stabil 4,2 pg/ml, somit kein Hinweis für einen akuten Nicht-ST-Hebungsinfarkt.							Cyanosezeichen	1
+Zielbegriff: 	hs-cTroponin							Homans	1
+Prompt:	Was bedeutet hs-cTroponin in diesem Zusammenhang?							Infiltrat	1
+Antwort:	Hs-cTroponin ist ein Biomarker, der verwendet wird, um Herzinfarkte zu diagnostizieren. Es handelt sich um ein Protein, das im Herzmuskel freigesetzt wird, wenn dieser beschädigt ist. Der Wert von hs-cTroponin wird in Picogramm pro Milliliter (pg/ml) angegeben.  Bedeutung im vorliegenden Arztbrief: Im vorliegenden Arztbrief wird der Wert von hs-cTroponin bei der Aufnahme mit 5 pg/ml angegeben und im Verlauf stabil bei 4,2 pg/ml. Dies deutet darauf hin, dass es keine Hinweise für einen akuten Nicht-ST-Hebungsinfarkt gibt.  Hinweis auf Mehrdeutigkeit oder Unsicherheit: Die Bedeutung von hs-cTroponin ist in diesem Zusammenhang klar. Der Wert ist jedoch nicht sehr hoch, was darauf schließen lässt, dass es keine akute Herzschädigung gibt.							Erguss	1
+Genutzte Readme Treffer	1. Troponin  record_id: CARDIO_000167 | Englisch: troponin | mention_count: 71  Fachbegriff Deutsch: Troponin  Fachbegriff Englisch: troponin  Allgemeine medizinische Definition aus README: One of the minor protein components of skeletal and cardiac muscles. It functions as the calcium-binding component in a complex with BETA-TROPOMYOSIN; ACTIN; and MYOSIN and confers calcium sensitivity to the cross-linked actin and myosin filaments. Troponin itself is a complex of three regulatory proteins (TROPONIN C; TROPONIN I; and TROPONIN T).  Laienverständliche Erklärung Deutsch: Ein Protein, dessen Nachweis im Blut auf eine Herzschädigung hindeutet.  Laienverständliche Erklärung Englisch: A protein that indicates heart damage when detected in the blood. 2. Troponin  record_id: CARDIO_000704 | Englisch: Troponin | mention_count: 15  Fachbegriff Deutsch: Troponin  Fachbegriff Englisch: Troponin  Allgemeine medizinische Definition aus README: One of the minor protein components of skeletal and cardiac muscles. It functions as the calcium-binding component in a complex with BETA-TROPOMYOSIN; ACTIN; and MYOSIN and confers calcium sensitivity to the cross-linked actin and myosin filaments. Troponin itself is a complex of three regulatory proteins (TROPONIN C; TROPONIN I; and TROPONIN T).  Laienverständliche Erklärung Deutsch: Troponin ist ein Protein, das die Muskelkontraktion unterstützt und bei einer Herzschädigung ins Blut freigesetzt wird.  Laienverständliche Erklärung Englisch: Troponin is a protein that helps muscles contract and is released into the blood during heart damage. 3. CTEPH  record_id: CARDIO_000302 | Englisch: CTEPH | mention_count: 1  Fachbegriff Deutsch: CTEPH  Fachbegriff Englisch: CTEPH  Allgemeine medizinische Definition aus README: CTEPH  Laienverständliche Erklärung Deutsch: Wenn Blutgerinnsel einen erhöhten Blutdruck in der Lunge verursachen, spricht man von CTEPH.  Laienverständliche Erklärung Englisch: When blood clots cause high blood pressure in the lungs, it's called CTEPH. 4. Ctnt  record_id: CARDIO_000801 | Englisch: Ctnt | mention_count: 1  Fachbegriff Deutsch: Ctnt  Fachbegriff Englisch: Ctnt  Allgemeine medizinische Definition aus README: Ctnt  Laienverständliche Erklärung Deutsch: Ein Herzprotein, das bei einer Herzschädigung, beispielsweise einem Herzinfarkt, ins Blut freigesetzt wird und zur Beurteilung des Ausmaßes der Herzschädigung gemessen wird.  Laienverständliche Erklärung Englisch: A heart protein that is released into the blood due to heart damage, like a heart attack, and is measured to assess heart damage. 5. KOMPLEX  record_id: CARDIO_001347 | Englisch: COMPLEX | mention_count: 1  Fachbegriff Deutsch: KOMPLEX  Fachbegriff Englisch: COMPLEX  Allgemeine medizinische Definition aus README: COMPLEX  Laienverständliche Erklärung Deutsch: Drei Herzwellen, die im EKG zu sehen sind und anzeigen, wann die Herzkammern beginnen, sich zusammenzuziehen und Blut auszustoßen.  Laienverständliche Erklärung Englisch: Three heart waves showing when the ventricles start to contract and push out blood seen in an EKG.							Stauung	1
+Retrieval Details	Retrieval-Details  In der Frage erkannte README-Begriffe:  elektrokardiographisch, ST -, ST  Verwendeter lokaler Arztbriefkontext:  Kein lokaler Kontext verfügbar. Retrieval-Anfrage:  Gesuchte Begriffe aus der Nutzerfrage: hs-cTroponin, cTroponin  Automatisch zugeordnete README-Begriffsformen: TROPONIN, Troponin -  Nutzerfrage: Elektrokardiographisch zeigten sich keine infarkttypischen Ischämiezeichen. Das hs-cTroponin betrug bei Aufnahme 5 pg/ml, im Verlauf stabil 4,2 pg/ml, somit kein Hinweis für einen akuten Nicht-ST-Hebungsinfarkt. Was bedeutet hs-cTroponin in diesem Zusammenhang?							Atelektase	1
+								Röntgen Thorax	2
+								Pleuraerguss	1
+								Infiltrate	1
+								pulmonale Stauung	1
+								Pneumothorax	2
+								Thoraxskelett	1
+								Weichteilmantel	1
+								asymptomatisch	1
+								kardiorespiratorisch	1
+								RR	1
+								HF	1
+Disambiguierung								AF	1
+Textstelle:	Ausschluss akuter Myokardinfarkt Klinisch und laborchemisch kein Hinweis auf LAE/TVT/Dissektion der großen Gefäße							Sättigung	1
+Zielbegriff: 	LAE							Elektrokardiographisch	1
+Prompt:	was bedeutet LAE genau?							Ischämiezeichen	1
+Antwort:	Kurze Erklärung des Fachbegriffs LAE: LAE steht für "Increase in size of the left atrium", was bedeutet, dass ein Teil des Herzens, der linke Herzkammer, größer als normal ist.  Bedeutung im vorliegenden Arztbrief: Im Arztbrief wird LAE als ein möglicher Hinweis auf eine Herzerkrankung erwähnt, der jedoch durch weitere Untersuchungen ausgeschlossen wurde.  Hinweis auf fehlende, widersprüchliche oder nicht eindeutige Informationen: Keine.							hs-cTroponin	1
+Genutzte Readme Treffer	1. LAE  record_id: CARDIO_003374 | Englisch: LAE | mention_count: 1  Fachbegriff Deutsch: LAE  Fachbegriff Englisch: LAE  Allgemeine medizinische Definition aus README: Increase in size of the left atrium. []  Laienverständliche Erklärung Deutsch: Wenn ein Teil des Herzens größer als normal ist und dies zu Herzinsuffizienz und Schlaganfall führen kann.  Laienverständliche Erklärung Englisch: When part of the heart is bigger than usual and can cause heart failure and stroke. 2. qt  record_id: CARDIO_000622 | Englisch: qt | mention_count: 1  Fachbegriff Deutsch: qt  Fachbegriff Englisch: qt  Allgemeine medizinische Definition aus README: qt  Laienverständliche Erklärung Deutsch: Ein Teil der Herzaktivität, der auf einem Echokardiogramm dargestellt wird.  Laienverständliche Erklärung Englisch: A part of the heart's activity shown on an echocardiogram. 3. Gefäßlast  record_id: CARDIO_001126 | Englisch: vascular load | mention_count: 2  Fachbegriff Deutsch: Gefäßlast  Fachbegriff Englisch: vascular load  Allgemeine medizinische Definition aus README: Relating to or containing blood vessels.  Laienverständliche Erklärung Deutsch: Wie gut die Herzkammern funktionieren.  Laienverständliche Erklärung Englisch: How well the heart's ventricles are functioning. 4. v  record_id: CARDIO_000620 | Englisch: v | mention_count: 1  Fachbegriff Deutsch: v  Fachbegriff Englisch: v  Allgemeine medizinische Definition aus README: v  Laienverständliche Erklärung Deutsch: Eine Ableitung im EKG.  Laienverständliche Erklärung Englisch: A lead in an EKG. 5. KOMPLEX  record_id: CARDIO_001347 | Englisch: COMPLEX | mention_count: 1  Fachbegriff Deutsch: KOMPLEX  Fachbegriff Englisch: COMPLEX  Allgemeine medizinische Definition aus README: COMPLEX  Laienverständliche Erklärung Deutsch: Drei Herzwellen, die im EKG zu sehen sind und anzeigen, wann die Herzkammern beginnen, sich zusammenzuziehen und Blut auszustoßen.  Laienverständliche Erklärung Englisch: Three heart waves showing when the ventricles start to contract and push out blood seen in an EKG.							Nicht-ST-Hebungsinfarkt	1
+Retrieval Details	In der Frage erkannte README-Begriffe:  akuter Myokardinfarkt, LAE, Dissektion  Verwendeter lokaler Arztbriefkontext:  Ausschluss akuter Myokardinfarkt Klinisch und laborchemisch kein Hinweis auf LAE/TVT/Dissektion der großen Gefäße Retrieval-Anfrage:  Gesuchte Begriffe aus der Nutzerfrage: LAE  Automatisch zugeordnete README-Begriffsformen: LAE  Nutzerfrage: Ausschluss akuter Myokardinfarkt Klinisch und laborchemisch kein Hinweis auf LAE/TVT/Dissektion der großen Gefäße. was bedeutet LAE genau in diesem Satz?  Zielnaher Arztbriefkontext: Ausschluss akuter Myokardinfarkt Klinisch und laborchemisch kein Hinweis auf LAE/TVT/Dissektion der großen Gefäße							Entzündungskonstellation	1
+								CRP	1
+								Leukozyten	1
+								NT-pro-BNP	1
+								Lungenarterienembolie	1
+								RL	1
+								viralen Infekt	1
+								Thoraxschmerzen	1
+								Echokardiographie	2
+								Ischämie	2
+								kardiorespiratporisch	1
+								Analgesie	1
+								Röntgen-Thorax	1

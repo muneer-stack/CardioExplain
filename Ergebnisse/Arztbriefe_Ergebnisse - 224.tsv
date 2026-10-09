@@ -1,0 +1,79 @@
+Von CardioExplain gefundene Begriffe 224 Arztbrief						Goldstandard im Arztbrief	Vorkommen
+Im Arztbrief wurden folgende Fachbegriffe vom System erkannt:			record_ids			PTCA	2
+B	b -	b -	CARDIO_003106			DES	1
+PTCA	PTCA	PTCA	CARDIO_000143 | CARDIO_000685 | CARDIO_002012			LAD	1
+DES	DES	DES	CARDIO_000148			Stenose	5
+LAD	LAD	LAD	CARDIO_000145 | CARDIO_000540 | CARDIO_001134			Koronare 3-Gefäßerkrankung	1
+v	V -	V -	CARDIO_002372			linksventrikulärer Pumpfunktion	2
+Gefäßerkrankung	Gefäßerkrankung	Vascular disease	CARDIO_001028 | CARDIO_001746 | CARDIO_001893			proximal/medialen LAD	1
+LCX	LCX	LCX	CARDIO_000715			LCX	1
+LVEDP	LVEDP	LVEDP	CARDIO_000739 | CARDIO_002354			Stenose der medialen RCA	1
+Ischämie	Ischämie	ischemia	CARDIO_000072 | CARDIO_000236 | CARDIO_001272 | CARDIO_001676 | CARDIO_001680			LVEDP	1
+anterior	anterior	anterior	CARDIO_002064 | CARDIO_002887			Myokardszintigraphie	2
+Echokardiographisch	echokardiographisch	echocardiographic	CARDIO_001072			Ischämie	3
+Aortenklappeninsuffizienz	Aortenklappeninsuffizienz	aortic regurgitation	CARDIO_001465 | CARDIO_001583			mittventrikulär	2
+Stentimplantation	Stentimplantation	stenting	CARDIO_000108 | CARDIO_000993 | CARDIO_001842 | CARDIO_003015			septal	4
+Angina pectoris	Angina pectoris	angina	CARDIO_000752 | CARDIO_001045 | CARDIO_001902 | CARDIO_002010			apikal	2
+Angina	Angina pectoris	angina	CARDIO_000752 | CARDIO_002108 | CARDIO_003274			anterior	2
+Synkopen	Synkopen	syncopal episodes	CARDIO_001394			Echokardiographisch	1
+bds	BDS	BDS	CARDIO_000667			linksventrikuläre Pumpfunktion	1
+Aktuell	AKTUELL	CURRENT	CARDIO_002712			Aortenklappeninsuffizienz	1
+Geräusche	Geräusche	sounds	CARDIO_001170 | CARDIO_001716			Adipositas	1
+EKG	EKG	EKG	CARDIO_000057 | CARDIO_000772 | CARDIO_000928 | CARDIO_000940 | CARDIO_001467 | CARDIO_001637 | CARDIO_002890			Hyperlipoproteinämie	1
+Sinusrhythmus	Sinusrhythmus	sinus rhythm	CARDIO_000345			Stentimplantation	1
+Herzfrequenz	Herzfrequenz	Heart Rate	CARDIO_000067 | CARDIO_000358 | CARDIO_001913 | CARDIO_001940 | CARDIO_002049 | CARDIO_002161 | CARDIO_002464			postinterventioneller	1
+QRS	QRS	QRS	CARDIO_000462 | CARDIO_001622			Herzkatheteruntersuchung	2
+QTc	qtc	qtc	CARDIO_000174 | CARDIO_000431 | CARDIO_001548 | CARDIO_001649 | CARDIO_003355			Belastungsdyspnoe	1
+V2	V2	V2	CARDIO_001299 | CARDIO_003127			Angina pectoris	1
+T	T -	T -	CARDIO_001620			Palpitationen	1
+II	II	II	CARDIO_000536 | CARDIO_003386			Synkopen	1
+III	III	III	CARDIO_000442			linksthorakales	1
+aVF	AVF	AVF	CARDIO_000537 | CARDIO_001621 | CARDIO_002886			Knöcheloedeme	1
+V4	V4	V4	CARDIO_000706			AZ	1
+V6	V6	V6	CARDIO_000708			EZ	1
+V1	V1	V1	CARDIO_001469			HF	1
+Parameter	Parameter	parameters	CARDIO_001592 | CARDIO_002472			RR	1
+A	A -	A -	CARDIO_002465			Cyanose	1
+AV-Fistel	AV-Fistel	AV fist	CARDIO_000526 | CARDIO_001380 | CARDIO_001384 | CARDIO_003500			Ikterus	1
+AV	AV	AV	CARDIO_000172 | CARDIO_000351 | CARDIO_000359 | CARDIO_000790 | CARDIO_000894 | CARDIO_001124 | CARDIO_001143 | CARDIO_001163 | CARDIO_001825 | CARDIO_002090 | CARDIO_002594			HT	1
+Troponin	TROPONIN	TROPONIN	CARDIO_000120 | CARDIO_000167 | CARDIO_000704 | CARDIO_001868 | CARDIO_003610			Periphere Ödeme	1
+Clopidogrel	CLOPIDOGREL	CLOPIDOGREL	CARDIO_001655 | CARDIO_001810				
+täglich	Täglich	Daily	CARDIO_002267				
+Atorvastatin	ATORVASTATIN	ATORVASTATIN	CARDIO_000031 | CARDIO_000049 | CARDIO_000691 | CARDIO_001653 | CARDIO_001654				
+Blutdruck	Blutdruck	Blood pressure	CARDIO_002052 | CARDIO_002993				
+kardiorespiratorisch	kardiorespiratorisch	cardiorespiratory	CARDIO_003424				
+						Pulsstatus	1
+Disambiguierung u. Antwortgenerierung						PQ	2
+Textstelle, die untersucht wird im Arztbrief: 	In der Herzkatheteruntersuchung zeigte sich eine koronare 3-Gefäßerkrankung mit guter linksventrikulärer Pumpfunktion. Wir haben eine erfolgreiche PTCA/2xDES Implantation der medialen LAD bei hochgradiger Stenose durchgeführt.					QRS	2
+Zielbegriffe	PTCA DES oder LAD					QTc	2
+Prompt:	Was bedeutet, dass eine PTCA mit 2x DES-Implantation der medialen LAD durchgeführt wurde?					V2/V3	1
+Antwort	Kurze Erklärung des Fachbegriffs: PTCA (Perkutane Transluminal Angioplastie) ist ein medizinisches Verfahren, bei dem ein Ballon in einer verstopften Arterie aufgeblasen wird, um den Blutfluss zu verbessern. Im Zusammenhang mit der Implantation von DES (Drug-Eluting Stent) wird ein Medikamentenfreisetzungsschlauch in die Arterie eingebracht, um die Wiederherstellung der Blutflussfähigkeit zu unterstützen. Bedeutung im vorliegenden Arztbrief: Die PTCA/2x DES Implantation der medialen LAD bei hochgradiger Stenose bedeutet, dass ein Ballon in der verstopften LAD-Arterie aufgeblasen wurde, um den Blutfluss zu verbessern, und gleichzeitig ein Medikamentenfreisetzungsschlauch in die Arterie eingebracht wurde, um die Wiederherstellung der Blutflussfähigkeit zu unterstützen. Hinweis auf Mehrdeutigkeit oder Unsicherheit: Die Bedeutung des Begriffs "PTCA/2x DES Implantation" ist klar und eindeutig im Kontext des Arztbriefes.					II	1
+Genutzte Readme Treffer	1. PTCA  record_id: CARDIO_002012 | Englisch: PTCA | mention_count: 5  Fachbegriff Deutsch: PTCA  Fachbegriff Englisch: PTCA  Allgemeine medizinische Definition aus README: A procedure to open an occluded coronary artery, performed by percutaneous introduction of a catheter into a peripheral (usually femoral) artery which is directed in a retrograde fashion to reach the diseased coronary artery.  Laienverständliche Erklärung Deutsch: Ein medizinischer Eingriff, bei dem ein verstopftes Blutgefäß mithilfe eines kleinen Ballons geöffnet wird.  Laienverständliche Erklärung Englisch: A medical procedure that uses a small balloon to open a blocked blood vessel. 2. DES  record_id: CARDIO_000148 | Englisch: DES | mention_count: 1  Fachbegriff Deutsch: DES  Fachbegriff Englisch: DES  Allgemeine medizinische Definition aus README: A synthetic nonsteroidal estrogen used in the treatment of menopausal and postmenopausal disorders. It was also used formerly as a growth promoter in animals. According to the Fourth Annual Report on Carcinogens (NTP 85-002, 1985), diethylstilbestrol has been listed as a known carcinogen. (Merck, 11th ed)  Laienverständliche Erklärung Deutsch: Ein DES ist eine Art Stent, der nach und nach Wirkstoffe freisetzt, um eine verstopfte Arterie offen zu halten.  Laienverständliche Erklärung Englisch: A DES is a type of stent that slowly releases medicine to keep a blocked artery open. 3. LAD  record_id: CARDIO_001134 | Englisch: LAD | mention_count: 55  Fachbegriff Deutsch: LAD  Fachbegriff Englisch: LAD  Allgemeine medizinische Definition aus README: A left coronary artery branch that descends on the anterior portion of the heart through the anterior interventricular groove.  Laienverständliche Erklärung Deutsch: Eine Herzarterie.  Laienverständliche Erklärung Englisch: An artery of the heart. 4. PTCA  record_id: CARDIO_000143 | Englisch: PTCA | mention_count: 10  Fachbegriff Deutsch: PTCA  Fachbegriff Englisch: PTCA  Allgemeine medizinische Definition aus README: A procedure to open an occluded coronary artery, performed by percutaneous introduction of a catheter into a peripheral (usually femoral) artery which is directed in a retrograde fashion to reach the diseased coronary artery.  Laienverständliche Erklärung Deutsch: Verfahren, bei dem ein kleiner Ballon in einem Blutgefäß aufgeblasen wird, um Verstopfungen zu beseitigen.  Laienverständliche Erklärung Englisch: Procedure where a small balloon is inflated in a blood vessel to clear blockages. 5. ptca  record_id: CARDIO_000685 | Englisch: ptca | mention_count: 1  Fachbegriff Deutsch: ptca  Fachbegriff Englisch: ptca  Allgemeine medizinische Definition aus README: A procedure to open an occluded coronary artery, performed by percutaneous introduction of a catheter into a peripheral (usually femoral) artery which is directed in a retrograde fashion to reach the diseased coronary artery.  Laienverständliche Erklärung Deutsch: Ein Verfahren, bei dem ein kleiner Ballon innerhalb eines Blutgefäßes aufgeblasen wird, um Verstopfungen zu beseitigen.  Laienverständliche Erklärung Englisch: A procedure where a small balloon is inflated inside a blood vessel to clear blockages.					III	1
+Retrieval Details	In der Frage erkannte README-Begriffe:  PTCA, DES, LAD  Verwendeter lokaler Arztbriefkontext:  In der Herzkatheteruntersuchung zeigte sich eine koronare 3-Gefäßerkrankung mit guter linksventrikulärer Pumpfunktion. Wir haben eine erfolgreiche PTCA/2xDES Implantation der medialen LAD bei hochgradiger Stenose durchgeführt. Retrieval-Anfrage:  Gesuchte Begriffe aus der Nutzerfrage: PTCA, DES, LAD, DES-Implantation  Automatisch zugeordnete README-Begriffsformen: PTCA, DES, LAD  Nutzerfrage: Was bedeutet, dass eine PTCA mit 2x DES-Implantation der medialen LAD durchgeführt wurde?  Zielnaher Arztbriefkontext: In der Herzkatheteruntersuchung zeigte sich eine koronare 3-Gefäßerkrankung mit guter linksventrikulärer Pumpfunktion. Wir haben eine erfolgreiche PTCA/2xDES Implantation der medialen LAD bei hochgradiger Stenose durchgeführt.					aVF	1
+						V4-V6	1
+						Erregungsrückbildungsstörungen	1
+						V1/V2	1
+						T-Negativierung	1
+						hs-TroponinT	1
+						3-Gefäßerkrankung	1
+						PTCA/2xDES	1
+						medialen LAD	1
+						peri-	1
+						postinterventionelle	1
+						EKG	1
+						Troponin	1
+						Thrombozytenaggregationshemmung	2
+						ASS	4
+						Clopidogrel	3
+						Atorvastatin	2
+						LDL-Cholesterins	2
+						CK	2
+						Transaminasen	2
+						kardiovaskulären	1
+						Lipide	1
+						HbA1c	1
+						RCA	1
+						Eszitalopram	1
+						Mirtazapin	1
+						Olanzapin	1
+						kardiorespiratorisch	1
